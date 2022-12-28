@@ -1,0 +1,109 @@
+.DetailPost{
+    background-image: linear-gradient(-90deg, rgb(108, 191, 240), rgb(255, 192, 255));
+    min-height: 80vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.DetailPost__body{
+    padding-top: 2.5vh;
+    margin: 0 5vw;
+    background-color: rgb(255, 255, 255);
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    border-radius: 20px;
+}
+.DetailPost__User{
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 30px;
+}
+.DetailPost__User--icProfile{
+    padding-top: 10px;
+    height: 5vh;
+}
+.DetailPost__Image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DetailPost__Image--imgMain{
+    padding-top: 20px;
+    height: 50vh;
+}
+.DetailPost__Image--imgMini{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10vh;
+}
+.DetailPost__Image--img{
+    height: 10vh;
+    padding-right: 15px;
+}
+.DetailPost__content{
+    padding: 30px 30px; 
+}
+.DetailPost__content--description{
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #939b4c;
+    height: 20vh;
+    padding-bottom: 20px;
+    width: 85vw;
+    color: black;
+    font-size: large;
+    outline: none;
+    resize: none;
+    margin-top:10px ;
+}
+
+.DetailPost__content--description1{
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #939b4c;
+    height: 20vh;
+    padding-bottom: 20px;
+    width: 85vw;
+    color: black;
+    font-size: large;
+    outline: none;
+    resize: none;
+    margin-top:10px ;
+    border: none;
+}
+
+.DetailPost__content--title{
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #939b4c;
+    width: 85vw;
+}
+.btnsua{
+    background-color: #669f5f;
+    border-radius: 10px;
+    height: 5vh;
+    width: 5vw;
+    margin-bottom: 2vh;
+}
+.btnxoa{
+    background-color: #c70202;
+    border-radius: 10px;
+    height: 5vh;
+    width: 5vw;
+    margin-bottom: 2vh;
+}
+button:hover{
+    background-color: rgb(255, 247, 0);
+}
+button{
+    margin-left: 30px;
+    font-size: 20px;
+    border-color: rgb(255, 255, 255);
+}
+#title{
+    border-radius: 5px;
+    height: 4vh;
+    font-size: 20px;
+    font-weight: bold;
+}

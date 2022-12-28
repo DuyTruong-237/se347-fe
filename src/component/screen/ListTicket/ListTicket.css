@@ -1,0 +1,158 @@
+.ListTicker-tab{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    border-radius: 500px;
+    background-color: rgba(176, 224, 243, 0.3);
+    
+   
+}
+.ListTiket-titleTab{
+    color: rgb(196, 194, 194);
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.ListTiket-findTicketBody-search{
+    width: 100%;
+    background-image: linear-gradient(-90deg, rgb(108, 191, 240), rgb(255, 192, 255));
+    height: 200px;
+    
+}
+.ListTiket-findTicketBody-search-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+.ListTiket-findTicketBody-Title{
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 30px;
+   
+}
+.ListTiket-findTicketBody-btnSearch{
+    margin-top: 70px;
+    height: 50px;
+    width: 50px;
+    color: aqua;
+}
+.ListTiket-findTicketBody-inputSearch{
+    margin-right: 30px;
+    margin-top: 70px;
+    font-size: 40px;
+    border: none;
+    width: 80vh;
+    height: 5vh;
+   
+}
+.ListTicker-tab-allTicker
+{
+    margin-top: 50px;
+    overflow: scroll;
+   width: 100%;
+   height: 650px;
+  
+    
+}
+.ListTicker-tab-allTicker-body{
+   
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 0 15%;
+    grid-column-gap: 80px;
+    grid-row-gap: 30px;
+   
+    
+}
+.TikerItem{
+
+    z-index: 0;
+    background-image: url('./ViewMain1.jpeg');
+    background-size: 100%;
+    position: relative;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.TikerItem-inforBasic{
+    width: 300px;
+    padding-top: 15px;
+    height: 285px;
+    position: absolute;
+    z-index: 1.1;
+    margin-left: 300px;
+    background-color: rgb(224, 184, 243);
+}
+.TikerItem-locationName{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+
+    justify-content: center;
+    color: rgb(204, 58, 95);
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    background-color: rgb(255, 192, 255);
+    margin-top: 235px;
+}
+
+.TikerItem-inforBasic-days{
+
+    margin-top: 15px;
+    font-size: 25px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.TikerItem-inforBasic-itemInfo{
+    display: flex;
+    margin-top: 20px;
+}
+.TikerItem-inforBasic-itemInfo-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.TikerItem-inforBasic-itemInfo-info{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.TikerItem-inforBasic-fare{
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(19, 161, 31);
+}
+.TikerItem-inforBasic-btnBuy{
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color: rgb(108, 191, 240);
+}
+.btnAddTour{
+    background-color: rgb(21, 165, 165);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 50px;
+    
+    
+    
+}
+.TikerItem-inforBasic-btnBuy:hover{
+    background-color: antiquewhite;
+}
+.iconAddTour{
+    margin-top: 15px;
+    margin-left: 5px;
+}

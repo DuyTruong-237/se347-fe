@@ -1,0 +1,151 @@
+.Profile{
+    background-color: #164DB1;
+    min-height: 100vh;
+    padding: 10vh;
+}
+
+.Profile img {
+    min-width: 30px;
+    min-height: 30px;
+    width: 80px;
+}
+
+.Profile_section{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: #000;
+    background-color: #ffffff;
+    
+    width: 25vw;
+    height: 75vh;
+    min-width: 390px;
+    min-height: 471px;
+    margin: 0vh 29vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Profile_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.Profile_header_icon{
+    margin: 0 0;
+    width: 30%;
+}
+.Profile_header_name{
+    text-align: center;
+    margin: 0 0;
+}
+.Profile_header_details{
+    color: #B8B4B4;
+    text-align: center;
+    margin: 5px 5px;
+}
+.Profile_content{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+.Profile_information{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5vh;   
+    font-size: 120%;
+}
+
+.Profile_information--phone {
+    margin-left: 15%;
+}
+
+.Profile_information--email {
+    margin-left: 15%;
+}
+
+.Profile_information .Profile_information--static {
+    margin-left: 0;
+    margin-left: 5em;
+
+}
+
+.Profile_contact {
+    margin-left: 20%;
+}
+
+.line {
+    width: 0px;
+    height: 100px;
+    border: 1px lightgray solid;
+}
+
+.Profile_information img{
+    width: 8%; 
+    height: 8%;
+}
+.Profile_information div {
+    display: flex;
+    align-items: center;
+}
+.Profile_information p {
+    width: 8%;
+    height: 8%;
+    text-align: center;
+    margin-right: 70%;
+}
+
+.static .posts{
+    margin-left: 20%;
+}
+
+.Profile_information .Profile_contact {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Profile_contact1:hover {
+    cursor: pointer;
+}
+.Profile_contact2:hover {
+    cursor: pointer;
+}
+.Profile .Profile_contact1{
+    width: 15%;
+    height: 15%;
+}
+.Profile .Profile_contact2{
+    margin-left: 5%;
+    width: 15%;
+    height: 15%;
+}
+.Profile_Logout{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.Button_Logout{
+    margin-top: 10px;
+    height: 4vh;
+    width: 10vw;
+    color: #fff;
+    background-color: #164DB1;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.Button_Logout:hover{
+    background-color: rgb(255, 153, 0);
+    cursor: pointer;
+}
+
+
+.static {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+.HeaderImg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    background-image: url('./ViewMain6.jpg');
+    background-size: cover;
+}

@@ -1,0 +1,14 @@
+.container{
+    margin: 3%;
+}
+#RegisterBody{
+    background-color: #fff;
+}
+.mainbutton{
+    margin: 5% 0;
+}
+#logo{
+    width: 280px;
+    height: 97px;
+    margin-bottom: 15px;
+}
