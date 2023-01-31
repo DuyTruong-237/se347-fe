@@ -7,10 +7,10 @@
    
 }
 .PostList{
-    margin: 0 20%;
+
    
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .PostItem{
     margin-top: 50px;

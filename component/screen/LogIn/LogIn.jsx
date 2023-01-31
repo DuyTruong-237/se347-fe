@@ -22,6 +22,7 @@ const LogIn = () => {
       password: password,
     };
     loginUser(newUser, dispatch, navigate);
+   
   };
 
   return (
